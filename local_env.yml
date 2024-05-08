@@ -1,0 +1,11 @@
+name: transformer
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python>=3.8
+  - numpy
+  - tqdm
+  - docopt
+  - pytorch>=2.1.2
+  - torchvision

@@ -161,12 +161,12 @@ Note: As s reference point, the accuracy the model if it just predicts “London
 
 - Accuracy when training the model directly on `birth_places_train.csv` : 2%
 
-- Accuracy when pre-training and them finetuning: 22.4% 
+- Accuracy when pre-training and then finetuning: 22.4% 
     
 
 ### 2. Perceiver AR model:
     
-- Accuracy when pre-training and them finetuning: 16.67.4% 
+- Accuracy when pre-training and then finetuning: 16.67% 
 
 **The pretrained model achieved higher accuracy (more than benchmark) because it had prior knowledge from being trained on a large dataset. It learned patterns and features during pretraining, enabling it to generalize better on new examples. In contrast, the non-pretrained model started from scratch, lacking the initial knowledge and taking longer to learn meaningful representations, resulting in
 lower accuracy.**
